@@ -1,5 +1,5 @@
 function preload() {
-
+clownnose=loadImage('https://thumbs.dreamstime.com/b/sticker-cartoon-cheese-creative-illustrated-147644431.jpg')
 }
 
 function setup() {
@@ -29,6 +29,10 @@ function gotPoses(results){
 
 function draw() {
     image(video, 0, 0, 401, 437);
+    fill('purple');
+    stroke('green');
+    circle(nosex,nosey,20);
+    image(clownnose,nosex,nosey,30,30);
 }
 
 function takesnapshot() {
